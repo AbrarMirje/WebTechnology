@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX: College Demo</title>
+</head>
+
+<body>
+    <p id="pt">This is original text</p>
+    <input type="button" onclick="changeText()" value="Change Text">
+
+    <script>
+        function changeText() {
+
+            const xml = new XMLHttpRequest();
+            xml.open('GET', 'abrar.txt', true);
+            xml.onload = function () {
+                document.getElementById('pt').innerHTML = this.responseText;
+            }
+            xml.send();
+        }
+    </script>
+</body>
+
+</html>

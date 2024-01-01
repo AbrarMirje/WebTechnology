@@ -1,7 +1,7 @@
 // The window object model in JavaScript is the way of accessing and manipulating the browser window and its contents. The window object is the global object in the web browser environment, which means that all the variables, functions, and objects defined in a web page are properties or methods of the window object. The window object also provides access to various browser features, such as the location, history, screen, document, console, and more.
 
 // The window object has many properties and methods that can be used to interact with the browser window and the document being displayed. Some of the most common ones are:
-
+ 
 // window.alert(); //Displays an alert box with a message and an OK button.
 // window.confirm(); //Displays a confirm box with a message and OK and Cancel buttons.
 // window.prompt(); //Displays a prompt box with a message and a text input field.

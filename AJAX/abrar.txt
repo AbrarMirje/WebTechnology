@@ -1,0 +1,1 @@
+This is the demo text for AJAX demonstatration so don't believe in what I write here.
